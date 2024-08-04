@@ -1,4 +1,3 @@
-import React from 'react';
 import Swal from 'sweetalert2';
 const projectId = process.env.REACT_APP_COSMOCLOUD_PROJECT_ID;
 const environmentId = process.env.REACT_APP_COSMOCLOUD_ENVIRONMENT_ID;

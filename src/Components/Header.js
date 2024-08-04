@@ -3,10 +3,10 @@ import React from "react";
 function Header({ setIsAdding, searchQuery, setSearchQuery }) {
   return (
     <header className="header">
-      <h1>Employee Management</h1>
+      <h1>Employee Management System</h1>
       <div className="header-actions">
         <button onClick={() => setIsAdding(true)} className="button">
-          Add Employee
+          Add New Employee
         </button>
         <div className="search-bar-container">
           <input
